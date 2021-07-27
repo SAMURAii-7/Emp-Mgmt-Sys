@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ViewEmployees">
+   <children>
+      <AnchorPane prefHeight="540.0" prefWidth="1082.0">
+         <children>
+            <TableView fx:id="table" editable="true" layoutX="10.0" layoutY="27.0" prefHeight="502.0" prefWidth="1061.0">
+              <columns>
+                <TableColumn fx:id="id" prefWidth="75.0" text="ID" />
+                <TableColumn fx:id="fname" prefWidth="112.0" text="First Name" />
+                  <TableColumn fx:id="lname" prefWidth="101.60005187988281" text="Last Name" />
+                  <TableColumn fx:id="salary" prefWidth="70.39996337890625" text="Salary" />
+                  <TableColumn fx:id="age" minWidth="3.20001220703125" prefWidth="64.00006103515625" text="Age" />
+                  <TableColumn fx:id="department" prefWidth="134.39996337890625" text="Department" />
+                  <TableColumn fx:id="address" minWidth="0.0" prefWidth="160.00006103515625" text="Address" />
+                  <TableColumn fx:id="date_of_birth" minWidth="0.0" prefWidth="127.199951171875" text="DOB" />
+              </columns>
+               <columnResizePolicy>
+                  <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+               </columnResizePolicy>
+            </TableView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

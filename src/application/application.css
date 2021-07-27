@@ -1,0 +1,79 @@
+.label {
+    -fx-font-size: 15.0px;
+    -fx-padding: 8 8 8 8;
+    -fx-text-fill: rgb(92, 53, 102);
+}
+
+.button {
+    -fx-font-size: 15.0px;
+    -fx-background-color: rgb(37, 66, 199);
+    -fx-padding: 8 8 8 8;
+    -fx-background-radius: 10;
+    -fx-border-color: rgb(32,74,135);
+    -fx-border-radius: 10;
+    -fx-text-fill: white;
+}
+
+#btn1 {
+    -fx-font-size: 15.0px;
+    -fx-background-color: rgb(115, 210, 22);
+    -fx-padding: 8 8 8 8;
+    -fx-background-radius: 10;
+    -fx-border-color: rgb(32, 74, 135);
+    -fx-border-radius: 10;
+}
+
+#updateEmployee, #insertEmployee {
+    -fx-text-fill: white;
+    -fx-font-size: 15.0px;
+    -fx-background-color: rgb(115,210,22);
+    -fx-padding: 8 8 8 8;
+    -fx-background-radius: 10;
+    -fx-border-color: rgb(32,74,135);
+    -fx-border-radius: 10;
+}
+
+#deleteEmployee {
+    -fx-text-fill: white;
+    -fx-font-size: 15.0px;
+    -fx-background-color: red;
+    -fx-padding: 8 8 8 8;
+    -fx-background-radius: 10;
+    -fx-border-color: rgb(32,74,135);
+    -fx-border-radius: 10;
+}
+
+.heading{
+    -fx-font-family: Arial, sans-serif;
+    -fx-font-weight: bold;
+    -fx-underline: true;
+}
+
+#tf1 {
+    -fx-font-size: 15.0px;
+    -fx-background-color: rgb(32,74,135);
+    -fx-text-fill: rgb(255,255,255);
+    -fx-padding: 8 8 8 8;
+    -fx-background-radius: 10;
+    -fx-border-color: rgb(32,74,135);
+    -fx-border-radius: 10;
+}
+
+#tf2 {
+    -fx-font-size: 15.0px;
+    -fx-background-color: rgb(32,74,135);
+    -fx-text-fill: rgb(255,255,255);
+    -fx-padding: 8 8 8 8;
+    -fx-background-radius: 10;
+    -fx-border-color: rgb(32,74,135);
+    -fx-border-radius: 10;
+}
+
+#lb4 {
+    -fx-text-fill: rgb(204,0,0);
+}
+
+#lb5 {
+    -fx-text-fill: rgb(204,0,0);
+}
+
